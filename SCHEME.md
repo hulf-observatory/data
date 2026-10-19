@@ -32,8 +32,8 @@ tables/<publisher>/<id>.csv    the tables themselves, plain CSV with a header ro
 
 Time series and other non-spatial data live under `tables/`, one folder per publisher
 (`hmwssb/` first). They are not layers: nothing in `layers.json` or STAC points at them, and the
-viewer does not load them. `tables/tables.json` is their catalogue, read by whichever page lists
-them (to come on the open-data site):
+viewer does not load them. `tables/tables.json` is their catalogue, for the dashboards and apps
+that read the tables (there is no listing page; like the layers, they are served, not browsed):
 
 ```
 updated, data_base
