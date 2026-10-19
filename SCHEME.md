@@ -24,7 +24,28 @@ legend/<id>.legend.json        baked legends (built-up, heights)
 legends/<series>.webp          legend pictures cut from the land-use sheets
 nav/areas.json                 breadcrumb + place-search areas
 heritage.json                  City Timeline's heritage list
+tables/tables.json             catalogue of non-spatial tables (schema below)
+tables/<publisher>/<id>.csv    the tables themselves, plain CSV with a header row
 ```
+
+## Tables (added 2026-10-19)
+
+Time series and other non-spatial data live under `tables/`, one folder per publisher
+(`hmwssb/` first). They are not layers: nothing in `layers.json` or STAC points at them, and the
+viewer does not load them. `tables/tables.json` is their catalogue, read by whichever page lists
+them (to come on the open-data site):
+
+```
+updated, data_base
+tables[]: id, title, group, csv (absolute URL under D), rows,
+          period {from, to, step: day | month}, fields[] {name, type, description},
+          description, source_name, source_url, attribution, licence, licence_url,
+          mirror (the repo the file is maintained in), update (how and how often)
+```
+
+The files are copies: `hmwssb/*.csv` are maintained in `hulf-observatory/hmwssb-data` (fetched
+from the Mac, since HMWSSB and Open Data Telangana refuse cloud IPs) and copied here on update.
+Keep `rows` and `period` in `tables.json` in step with the files.
 
 ## Raster tiles under W
 
