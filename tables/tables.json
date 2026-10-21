@@ -55,7 +55,7 @@
       "attribution": "Hyderabad Metropolitan Water Supply and Sewerage Board, Government of Telangana",
       "licence": "Open Government Data Licence – India",
       "licence_url": "https://data.gov.in/government-open-data-license-india",
-      "mirror": "https://github.com/hulf-observatory/hmwssb-data",
+      "mirror": "https://github.com/hulf-observatory/hmwssb",
       "update": "monthly; the portal posts a month around the 15th of the next"
     },
     {
@@ -132,7 +132,7 @@
       "source_url": "https://bms.hyderabadwater.gov.in/wlrreport/showreport1.aspx",
       "attribution": "Hyderabad Metropolitan Water Supply and Sewerage Board",
       "licence": "Public report of a Government of Telangana board; terms not stated on the page. Published for research and teaching.",
-      "mirror": "https://github.com/hulf-observatory/hmwssb-data",
+      "mirror": "https://github.com/hulf-observatory/hmwssb",
       "update": "fetched from the Mac; the report for a day appears a day or two later"
     }
   ]

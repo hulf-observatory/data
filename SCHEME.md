@@ -43,7 +43,7 @@ tables[]: id, title, group, csv (absolute URL under D), rows,
           mirror (the repo the file is maintained in), update (how and how often)
 ```
 
-The files are copies: `hmwssb/*.csv` are maintained in `hulf-observatory/hmwssb-data` (fetched
+The files are copies: `hmwssb/*.csv` are maintained in `hulf-observatory/hmwssb` (fetched
 from the Mac, since HMWSSB and Open Data Telangana refuse cloud IPs) and copied here on update.
 Keep `rows` and `period` in `tables.json` in step with the files.
 
