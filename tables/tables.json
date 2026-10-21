@@ -134,6 +134,72 @@
       "licence": "Public report of a Government of Telangana board; terms not stated on the page. Published for research and teaching.",
       "mirror": "https://github.com/hulf-observatory/hmwssb",
       "update": "fetched from the Mac; the report for a day appears a day or two later"
+    },
+    {
+      "id": "irrigation_reservoirs_daily",
+      "title": "Telangana reservoirs: daily storage, level, inflow and outflow (Irrigation & CAD Department)",
+      "group": "Water",
+      "csv": "https://data.hyderabad.urbanobservatory.in/tables/hmwssb/irrigation_reservoirs_daily.csv",
+      "rows": 0,
+      "period": {
+        "from": "2021-01-01",
+        "to": "",
+        "step": "day"
+      },
+      "fields": [
+        {
+          "name": "date",
+          "type": "date",
+          "description": "ISO YYYY-MM-DD"
+        },
+        {
+          "name": "reservoir",
+          "type": "string",
+          "description": "reservoir or project name as published (upper case)"
+        },
+        {
+          "name": "basin",
+          "type": "string",
+          "description": "Godavari Basin or Krishna Basin"
+        },
+        {
+          "name": "frl_ft",
+          "type": "number",
+          "description": "full reservoir level, feet"
+        },
+        {
+          "name": "capacity_tmc",
+          "type": "number",
+          "description": "gross capacity at FRL, TMC"
+        },
+        {
+          "name": "level_ft",
+          "type": "number",
+          "description": "level on the date, feet"
+        },
+        {
+          "name": "gross_storage_tmc",
+          "type": "number",
+          "description": "storage on the date, TMC"
+        },
+        {
+          "name": "inflow_cusecs",
+          "type": "number",
+          "description": "inflow on the date; unit not stated on the portal, cusecs inferred"
+        },
+        {
+          "name": "outflow_cusecs",
+          "type": "number",
+          "description": "outflow on the date; same caveat"
+        }
+      ],
+      "description": "Daily storage figures for Telangana's major and medium reservoirs from the Irrigation & CAD Department, published on Open Data Telangana as one file per month since January 2021. The portal lists 82 reservoirs every day but most rows are zeros (not reported); this table keeps only rows with any non-zero figure, so roughly 10 to 15 reservoirs appear per day. Column names are normalised (the source misspells reservior_name and switches the date column between date and time). Includes Singur, Nagarjuna Sagar, Srisailam and Sripada Yellampally, which overlap the HMWSSB table; the Musi reservoirs Osman Sagar and Himayat Sagar are not in this dataset.",
+      "source_name": "Irrigation & CAD Department, Government of Telangana, via Open Data Telangana",
+      "source_url": "https://data.telangana.gov.in/dataset/telangana-irrigation-cad-department-daily-reservoir-storage-levels",
+      "attribution": "Irrigation & CAD Department, Government of Telangana",
+      "licence": "Government Open Data License - India",
+      "mirror": "https://github.com/hulf-observatory/hmwssb",
+      "update": "monthly, with the HMWSSB tanker fetch on the server; the portal posts a month about a week after it ends; the CSV appears after the first successful fetch"
     }
   ]
 }
