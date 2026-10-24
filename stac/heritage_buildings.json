@@ -58,17 +58,17 @@
  "links": [
   {
    "rel": "root",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "parent",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "self",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/heritage_buildings.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/heritage_buildings.json",
    "type": "application/geo+json"
   },
   {
@@ -78,7 +78,7 @@
  ],
  "assets": {
   "pmtiles": {
-   "href": "https://data.hyderabad.urbanobservatory.in/vector/heritage_buildings.dd261f25.pmtiles",
+   "href": "https://hyderabad.urbanobservatory.in/data/vector/heritage_buildings.dd261f25.pmtiles",
    "type": "application/vnd.pmtiles",
    "roles": [
     "visual"
@@ -86,7 +86,7 @@
    "title": "Vector tiles (PMTiles)"
   },
   "data": {
-   "href": "https://data.hyderabad.urbanobservatory.in/vector/heritage_buildings.parquet",
+   "href": "https://hyderabad.urbanobservatory.in/data/vector/heritage_buildings.parquet",
    "type": "application/vnd.apache.parquet",
    "roles": [
     "data"

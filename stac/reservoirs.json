@@ -49,23 +49,23 @@
  "links": [
   {
    "rel": "root",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "parent",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "self",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/reservoirs.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/reservoirs.json",
    "type": "application/geo+json"
   }
  ],
  "assets": {
   "pmtiles": {
-   "href": "https://data.hyderabad.urbanobservatory.in/vector/reservoirs.ec72a442.pmtiles",
+   "href": "https://hyderabad.urbanobservatory.in/data/vector/reservoirs.ec72a442.pmtiles",
    "type": "application/vnd.pmtiles",
    "roles": [
     "visual"
@@ -73,7 +73,7 @@
    "title": "Vector tiles (PMTiles)"
   },
   "data": {
-   "href": "https://data.hyderabad.urbanobservatory.in/vector/reservoirs.parquet",
+   "href": "https://hyderabad.urbanobservatory.in/data/vector/reservoirs.parquet",
    "type": "application/vnd.apache.parquet",
    "roles": [
     "data"

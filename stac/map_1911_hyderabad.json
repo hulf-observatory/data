@@ -51,17 +51,17 @@
  "links": [
   {
    "rel": "root",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "parent",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "self",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/map_1911_hyderabad.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/map_1911_hyderabad.json",
    "type": "application/geo+json"
   }
  ],

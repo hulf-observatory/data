@@ -58,17 +58,17 @@
  "links": [
   {
    "rel": "root",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "parent",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "self",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/plu_shivampet.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/plu_shivampet.json",
    "type": "application/geo+json"
   },
   {

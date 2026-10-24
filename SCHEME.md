@@ -7,7 +7,7 @@ City Timeline and release script; all three follow this exactly.
 
 | Name | URL | Holds |
 |---|---|---|
-| **D** (data base) | `https://data.hyderabad.urbanobservatory.in/` | catalogue, vectors, small files (GitHub Pages; CORS `*`, range requests, 100 MB/file) |
+| **D** (data base) | `https://hyderabad.urbanobservatory.in/data/` | catalogue, vectors, small files (GitHub Pages; CORS `*`, range requests, 100 MB/file) |
 | **W** (tile worker) | `https://hyd-tiles.hulf-observatory.workers.dev` | raster tiles read from GitHub Releases of `hulf-observatory/hyderabad-data` |
 | Release | `https://github.com/hulf-observatory/hyderabad-data/releases/tag/<release>` | raster PMTiles (≤2 GB each; bigger ones split into a mosaic) |
 
@@ -83,7 +83,7 @@ display, legend, legend_image`) with these changes:
 - All fetches of `layers.json`, `nav/areas.json`, legends and `heritage.json` use absolute URLs
   under D (a `DATA_BASE` constant), never relative paths, so the apps work from any host.
 - No nginx, no `pmtiles serve`, no tile proxy, no CSP header. Apps are static sites on
-  GitHub Pages (`maps.hyderabad.urbanobservatory.in/`, `/timeline/`), relative asset paths.
+  GitHub Pages (`hyderabad.urbanobservatory.in/maps/`, `/timeline/`), relative asset paths.
 - Vector sources via `pmtiles.js` (vendored) + `maplibregl.addProtocol('pmtiles', …)`.
 - Each layer's Details shows **Download** (from `download`) and the licence/source lines.
 - Rasters show a small "Loading…" indicator while their source is loading

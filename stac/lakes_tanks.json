@@ -49,23 +49,23 @@
  "links": [
   {
    "rel": "root",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "parent",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "self",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/lakes_tanks.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/lakes_tanks.json",
    "type": "application/geo+json"
   }
  ],
  "assets": {
   "pmtiles": {
-   "href": "https://data.hyderabad.urbanobservatory.in/vector/lakes_tanks.00e1b251.pmtiles",
+   "href": "https://hyderabad.urbanobservatory.in/data/vector/lakes_tanks.00e1b251.pmtiles",
    "type": "application/vnd.pmtiles",
    "roles": [
     "visual"
@@ -73,7 +73,7 @@
    "title": "Vector tiles (PMTiles)"
   },
   "data": {
-   "href": "https://data.hyderabad.urbanobservatory.in/vector/lakes_tanks.parquet",
+   "href": "https://hyderabad.urbanobservatory.in/data/vector/lakes_tanks.parquet",
    "type": "application/vnd.apache.parquet",
    "roles": [
     "data"

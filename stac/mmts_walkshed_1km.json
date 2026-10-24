@@ -49,23 +49,23 @@
  "links": [
   {
    "rel": "root",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "parent",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "self",
-   "href": "https://data.hyderabad.urbanobservatory.in/stac/mmts_walkshed_1km.json",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/mmts_walkshed_1km.json",
    "type": "application/geo+json"
   }
  ],
  "assets": {
   "pmtiles": {
-   "href": "https://data.hyderabad.urbanobservatory.in/vector/mmts_walkshed_1km.51c714ed.pmtiles",
+   "href": "https://hyderabad.urbanobservatory.in/data/vector/mmts_walkshed_1km.51c714ed.pmtiles",
    "type": "application/vnd.pmtiles",
    "roles": [
     "visual"
@@ -73,7 +73,7 @@
    "title": "Vector tiles (PMTiles)"
   },
   "data": {
-   "href": "https://data.hyderabad.urbanobservatory.in/vector/mmts_walkshed_1km.parquet",
+   "href": "https://hyderabad.urbanobservatory.in/data/vector/mmts_walkshed_1km.parquet",
    "type": "application/vnd.apache.parquet",
    "roles": [
     "data"
