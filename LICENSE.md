@@ -9,4 +9,4 @@ the catalogue and this site's pages) is licensed under
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
 Please cite: Hyderabad Urban Observatory (2026). Spatial Data Repository, release 2026-10-07.
-https://github.com/hulf-observatory/hyderabad-data
+https://github.com/hulf-observatory/data

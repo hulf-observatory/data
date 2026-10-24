@@ -8,8 +8,8 @@ City Timeline and release script; all three follow this exactly.
 | Name | URL | Holds |
 |---|---|---|
 | **D** (data base) | `https://hyderabad.urbanobservatory.in/data/` | catalogue, vectors, small files (GitHub Pages; CORS `*`, range requests, 100 MB/file) |
-| **W** (tile worker) | `https://hyd-tiles.hulf-observatory.workers.dev` | raster tiles read from GitHub Releases of `hulf-observatory/hyderabad-data` |
-| Release | `https://github.com/hulf-observatory/hyderabad-data/releases/tag/<release>` | raster PMTiles (≤2 GB each; bigger ones split into a mosaic) |
+| **W** (tile worker) | `https://hyd-tiles.hulf-observatory.workers.dev` | raster tiles read from GitHub Releases of `hulf-observatory/data` |
+| Release | `https://github.com/hulf-observatory/data/releases/tag/<release>` | raster PMTiles (≤2 GB each; bigger ones split into a mosaic) |
 
 `<release>` is a date tag, first one `2026-10-07`. A published release never changes.
 

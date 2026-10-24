@@ -17,7 +17,7 @@ Current release: **`2026-10-07`**. The full layer list with licences is in [LAYE
 | Catalogue (one JSON, every layer) | https://hyderabad.urbanobservatory.in/data/layers.json |
 | STAC catalogue | https://hyderabad.urbanobservatory.in/data/stac/catalog.json |
 | Vector layers: GeoParquet + PMTiles | `https://hyderabad.urbanobservatory.in/data/vector/<id>.parquet`, `…/vector/<id>.<hash>.pmtiles` |
-| Raster layers: PMTiles | [Releases](https://github.com/hulf-observatory/hyderabad-data/releases) → `<id>.pmtiles` |
+| Raster layers: PMTiles | [Releases](https://github.com/hulf-observatory/data/releases) → `<id>.pmtiles` |
 | Raster tiles for web maps | `https://hyd-tiles.hulf-observatory.workers.dev/r/<release>/<id>/{z}/{x}/{y}.webp` (TileJSON at `…/<id>.json`) |
 | Viewer | https://hyderabad.urbanobservatory.in/maps/ |
 | City Timeline | https://hyderabad.urbanobservatory.in/timeline/ |
@@ -57,7 +57,7 @@ is published for research and teaching; we are confirming terms with those agenc
 Observatory's own processing, derived layers and metadata are **CC BY 4.0**. Please cite:
 
 > Hyderabad Urban Observatory (2026). Spatial Data Repository, release 2026-10-07.
-> https://github.com/hulf-observatory/hyderabad-data
+> https://github.com/hulf-observatory/data
 
 ## How it is made
 
