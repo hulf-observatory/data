@@ -38,7 +38,7 @@ a:hover { color: var(--ink); text-decoration-color: var(--ink); }
 .obs-menu a[aria-current="page"] { color: var(--ink); font-weight: 900; }
 @media (min-width: 1024px) { .obs-nav { display: flex; } .obs-burger, .obs-menu { display: none !important; } } /* five links fit from 1024 px */
 .obs-nav a { white-space: nowrap; }
-@media (max-width: 420px) { .obs-word { font-size: 11.5px; letter-spacing: .13em; } .obs-logo { width: 30px; height: 30px; } }
+@media (max-width: 420px) { .obs-word { font-size: 10.5px; letter-spacing: .08em; } .obs-logo { width: 28px; height: 28px; } .obs-brand { gap: 8px; } .obs-header { gap: 8px; } .obs-live-bar { font-size: 13.5px; } }   /* room for Live beside the burger */
 
 /* footer bar */
 .obs-footer { margin-top: 56px; padding: 16px 24px 18px; border-top: 1px solid var(--border); background: #fff; box-sizing: border-box; }
@@ -83,3 +83,7 @@ code { border-radius: 3px; }
 .obs-live-dot::after { content: ''; position: absolute; inset: 0; border-radius: 50%; background: #4A9447; animation: obs-live-pulse 1.8s ease-out infinite; }
 @keyframes obs-live-pulse { 0% { transform: scale(1); opacity: .6; } 100% { transform: scale(2.8); opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { .obs-live-dot::after { animation: none; } }
+/* below 1024 px the links fold into the burger; Live stays in the bar, just before it */
+.obs-live-bar { margin-left: auto; font: 700 14px/1 var(--font-ui); color: var(--ink); text-decoration: none; white-space: nowrap; flex: none; }
+.obs-header .obs-live-bar + .obs-burger { margin-left: -4px; }
+@media (min-width: 1024px) { .obs-live-bar { display: none; } }
