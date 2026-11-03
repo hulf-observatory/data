@@ -37,7 +37,7 @@
  ],
  "properties": {
   "title": "1975 56K7 SE",
-  "description": "Survey of India sheet 56 K/7/SE, 1:25,000, first edition 1975, surveyed 1973-74. Covers 78 22'30\" to 78 30' E, 17 15' to 17 22'30\" N: the Old City, Mir Alam tank and south towards Shamshabad. It joins the sheet above it (the layer '1975 56K7', which is 56 K/7/NE) along 17 22'30\" N. Georeferenced on its four corners on the Indian datum (Kalianpur 1975).",
+  "description": "Survey of India sheet 56 K/7/SE, 1:25,000, first edition 1975, surveyed 1973-74. Covers 78 22'30\" to 78 30' E, 17 15' to 17 22'30\" N: the Old City, Mir Alam tank and south towards Shamshabad. It joins the sheet above it (the layer '1975 56K7 NE') along 17 22'30\" N. Georeferenced on its four corners on the Indian datum (Kalianpur 1975).",
   "datetime": null,
   "start_datetime": "1975-01-01T00:00:00Z",
   "end_datetime": "1975-12-31T23:59:59Z",

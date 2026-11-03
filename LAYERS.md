@@ -70,7 +70,7 @@
 | `hydrobasins_l11` | Basins Level 11 | vector |  | HydroSHEDS |
 | `hydrobasins_l12` | Basins Level 12 | vector |  | HydroSHEDS |
 | `natural_drainage` | Natural Drainage Network | vector |  | Hyderabad Urban Lab |
-| `topo_1975_56k7` | 1975 56K7 | raster |  |  |
+| `topo_1975_56k7` | 1975 56K7 NE | raster |  |  |
 | `topo_1975_56k7_se` | 1975 56K7 SE | raster |  | Survey of India |
 | `topo_2011_56k2` | 2011 E44M2 56K2 | raster |  |  |
 | `topo_2011_56k3` | 2011 E44M3 56K3 | raster |  |  |
