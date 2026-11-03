@@ -1,0 +1,97 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "map_1942_hyderabad_city",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     78.353656,
+     17.248078
+    ],
+    [
+     78.587314,
+     17.248078
+    ],
+    [
+     78.587314,
+     17.540033
+    ],
+    [
+     78.353656,
+     17.540033
+    ],
+    [
+     78.353656,
+     17.248078
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  78.353656,
+  17.248078,
+  78.587314,
+  17.540033
+ ],
+ "properties": {
+  "title": "1942 Map of Hyderabad City",
+  "description": "'Map of Hyderabad City', dated 1-6-1351 F. (5-3-1942), published by the Municipal Publicity Department, Hyderabad. A pictorial map of roads, lakes and 28 numbered landmarks; the landmarks are the layer '1942 City Map Landmarks'. From a photograph of a framed print, cropped to the map. Not to scale: fitted to 12 landmarks, lakes and the Musi and bent between them, so positions are approximate.",
+  "datetime": null,
+  "start_datetime": "1942-01-01T00:00:00Z",
+  "end_datetime": "1942-12-31T23:59:59Z",
+  "huo:date_known": true,
+  "license": "other",
+  "huo:date": "1942",
+  "huo:group": "archive_maps",
+  "huo:kind": "raster",
+  "huo:source_name": "Municipal Publicity Department, Hyderabad",
+  "huo:release": "2026-11-03",
+  "providers": [
+   {
+    "name": "Municipal Publicity Department, Hyderabad",
+    "roles": [
+     "producer"
+    ],
+    "url": ""
+   }
+  ]
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/map_1942_hyderabad_city.json",
+   "type": "application/geo+json"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-11-03/map_1942_hyderabad_city.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "data",
+    "visual"
+   ],
+   "title": "Raster tiles (PMTiles)"
+  },
+  "tilejson": {
+   "href": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-11-03/map_1942_hyderabad_city.json",
+   "type": "application/json",
+   "roles": [
+    "metadata"
+   ],
+   "title": "TileJSON"
+  }
+ }
+}

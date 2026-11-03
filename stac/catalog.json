@@ -794,6 +794,36 @@
    "href": "https://hyderabad.urbanobservatory.in/data/stac/anganwadi_telangana.json",
    "type": "application/geo+json",
    "title": "Anganwadi Centres"
+  },
+  {
+   "rel": "item",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/landmarks_1942.json",
+   "type": "application/geo+json",
+   "title": "1942 City Map Landmarks"
+  },
+  {
+   "rel": "item",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/topo_1975_56k7_se.json",
+   "type": "application/geo+json",
+   "title": "1975 56K7 SE"
+  },
+  {
+   "rel": "item",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/map_1915_landuse.json",
+   "type": "application/geo+json",
+   "title": "1915 Land Use, Hyderabad and Secunderabad"
+  },
+  {
+   "rel": "item",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/map_1942_hyderabad_city.json",
+   "type": "application/geo+json",
+   "title": "1942 Map of Hyderabad City"
+  },
+  {
+   "rel": "item",
+   "href": "https://hyderabad.urbanobservatory.in/data/stac/map_1944_master_plan.json",
+   "type": "application/geo+json",
+   "title": "1944 Master Plan for Greater Hyderabad"
   }
  ]
 }

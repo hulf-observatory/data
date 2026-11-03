@@ -4206,6 +4206,75 @@
    }
   },
   {
+   "id": "landmarks_1942",
+   "title": "1942 City Map Landmarks",
+   "group": "heritage",
+   "order": 485,
+   "kind": "vector",
+   "geom": "point",
+   "source_layer": "landmarks_1942",
+   "minzoom": 0,
+   "maxzoom": 16,
+   "bounds": [
+    78.28777,
+    17.3135,
+    78.526357,
+    17.45409
+   ],
+   "center": [
+    78.472595,
+    17.363746
+   ],
+   "feature_count": 21,
+   "fields": [
+    {
+     "name": "key",
+     "type": "number"
+    },
+    {
+     "name": "name_1942",
+     "type": "string"
+    },
+    {
+     "name": "identified_as",
+     "type": "string"
+    },
+    {
+     "name": "position_source",
+     "type": "string"
+    },
+    {
+     "name": "basis",
+     "type": "string"
+    },
+    {
+     "name": "map",
+     "type": "string"
+    }
+   ],
+   "description": "The landmarks numbered in the key of the 1942 'Map of Hyderabad City', placed at their present positions. name_1942 is the name as printed in the key; identified_as is today's name where it differs, and basis says how the two were matched. position_source says where the point comes from (the heritage buildings list or OpenStreetMap). 21 of the 28 keys are placed; Afzal Gate, the Municipal Rest House (Suleh Sarai), the Town Hall, Jagirdar College and the Government Central Press have no sourced position yet, the Industrial Area is an area, and the Qutubshahi Tombs are printed twice in the key.",
+   "source_name": "Map of Hyderabad City (Municipal Publicity Department, 5-3-1942); positions from the GHMC heritage list and OpenStreetMap",
+   "source_url": "",
+   "attribution": "Map of Hyderabad City (Municipal Publicity Department, 5-3-1942); positions from the GHMC heritage list and OpenStreetMap",
+   "date": "1942",
+   "licence": "",
+   "default_visible": false,
+   "style": {
+    "color": "#7b3f99",
+    "fill": false,
+    "fill_opacity": 0.15,
+    "line_width": 1.5,
+    "icon": "heritage",
+    "palette": null
+   },
+   "encoding": null,
+   "display": true,
+   "pmtiles_url": "https://hyderabad.urbanobservatory.in/data/vector/landmarks_1942.5722a4b6.pmtiles",
+   "download": {
+    "parquet": "https://hyderabad.urbanobservatory.in/data/vector/landmarks_1942.parquet"
+   }
+  },
+  {
    "id": "musi_river",
    "title": "Musi River",
    "group": "water",
@@ -6083,6 +6152,44 @@
    }
   },
   {
+   "id": "topo_1975_56k7_se",
+   "title": "1975 56K7 SE",
+   "group": "toposheets",
+   "order": 685,
+   "kind": "raster",
+   "geom": null,
+   "source_layer": null,
+   "minzoom": 8,
+   "maxzoom": 16,
+   "bounds": [
+    78.359592,
+    17.199562,
+    78.524302,
+    17.399613
+   ],
+   "center": [
+    78.441947,
+    17.299588
+   ],
+   "feature_count": null,
+   "fields": [],
+   "description": "Survey of India sheet 56 K/7/SE, 1:25,000, first edition 1975, surveyed 1973-74. Covers 78 22'30\" to 78 30' E, 17 15' to 17 22'30\" N: the Old City, Mir Alam tank and south towards Shamshabad. It joins the sheet above it (the layer '1975 56K7', which is 56 K/7/NE) along 17 22'30\" N. Georeferenced on its four corners on the Indian datum (Kalianpur 1975).",
+   "source_name": "Survey of India",
+   "source_url": "",
+   "attribution": "Survey of India",
+   "date": "1975",
+   "licence": "",
+   "default_visible": false,
+   "style": null,
+   "encoding": null,
+   "tile_size": 512,
+   "display": true,
+   "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-11-03/topo_1975_56k7_se/{z}/{x}/{y}.webp",
+   "download": {
+    "pmtiles": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-11-03/topo_1975_56k7_se.pmtiles"
+   }
+  },
+  {
    "id": "topo_2011_56k2",
    "title": "2011 E44M2 56K2",
    "group": "toposheets",
@@ -6727,6 +6834,120 @@
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/map_1914_hyderabad/{z}/{x}/{y}.webp",
    "download": {
     "pmtiles": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/map_1914_hyderabad.pmtiles"
+   }
+  },
+  {
+   "id": "map_1915_landuse",
+   "title": "1915 Land Use, Hyderabad and Secunderabad",
+   "group": "archive_maps",
+   "order": 852,
+   "kind": "raster",
+   "geom": null,
+   "source_layer": null,
+   "minzoom": 8,
+   "maxzoom": 15,
+   "bounds": [
+    78.383454,
+    17.29746,
+    78.602517,
+    17.459553
+   ],
+   "center": [
+    78.492985,
+    17.378506
+   ],
+   "feature_count": null,
+   "fields": [],
+   "description": "'Land Use Map of Hyderabad and Secunderabad in 1915 AD', scale 1:67,000 (approximate), with six classes: residential, commercial, public and semi-public, parks and play ground, burials and cremation grounds, agriculture. The drawing is not to scale, so it is fitted to 11 points that still exist (railway stations, Hussain Sagar, Mir Alam tank, Golconda, Puranapul) and bent between them; expect offsets of a few hundred metres away from those points.",
+   "source_name": "",
+   "source_url": "",
+   "attribution": "",
+   "date": "1915",
+   "licence": "",
+   "default_visible": false,
+   "style": null,
+   "encoding": null,
+   "tile_size": 512,
+   "display": true,
+   "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-11-03/map_1915_landuse/{z}/{x}/{y}.webp",
+   "download": {
+    "pmtiles": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-11-03/map_1915_landuse.pmtiles"
+   }
+  },
+  {
+   "id": "map_1942_hyderabad_city",
+   "title": "1942 Map of Hyderabad City",
+   "group": "archive_maps",
+   "order": 854,
+   "kind": "raster",
+   "geom": null,
+   "source_layer": null,
+   "minzoom": 8,
+   "maxzoom": 14,
+   "bounds": [
+    78.353656,
+    17.248078,
+    78.587314,
+    17.540033
+   ],
+   "center": [
+    78.470485,
+    17.394056
+   ],
+   "feature_count": null,
+   "fields": [],
+   "description": "'Map of Hyderabad City', dated 1-6-1351 F. (5-3-1942), published by the Municipal Publicity Department, Hyderabad. A pictorial map of roads, lakes and 28 numbered landmarks; the landmarks are the layer '1942 City Map Landmarks'. From a photograph of a framed print, cropped to the map. Not to scale: fitted to 12 landmarks, lakes and the Musi and bent between them, so positions are approximate.",
+   "source_name": "Municipal Publicity Department, Hyderabad",
+   "source_url": "",
+   "attribution": "Municipal Publicity Department, Hyderabad",
+   "date": "1942",
+   "licence": "",
+   "default_visible": false,
+   "style": null,
+   "encoding": null,
+   "tile_size": 512,
+   "display": true,
+   "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-11-03/map_1942_hyderabad_city/{z}/{x}/{y}.webp",
+   "download": {
+    "pmtiles": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-11-03/map_1942_hyderabad_city.pmtiles"
+   }
+  },
+  {
+   "id": "map_1944_master_plan",
+   "title": "1944 Master Plan for Greater Hyderabad",
+   "group": "archive_maps",
+   "order": 856,
+   "kind": "raster",
+   "geom": null,
+   "source_layer": null,
+   "minzoom": 8,
+   "maxzoom": 14,
+   "bounds": [
+    78.233707,
+    17.278363,
+    78.611302,
+    17.529423
+   ],
+   "center": [
+    78.422505,
+    17.403893
+   ],
+   "feature_count": null,
+   "fields": [],
+   "description": "'Master Plan for Greater Hyderabad 1944', from a printed map prepared in 1944, as reproduced in HUDA's Urban Conservation Study. Shows present and future residential areas, industrial and military areas, garden and green belts, the inner and outer circular roads and a proposed railway. Fitted to five points (Charminar, Golconda, Secunderabad, Alwal and Lingampalli stations); about 170 m RMS.",
+   "source_name": "",
+   "source_url": "",
+   "attribution": "",
+   "date": "1944",
+   "licence": "",
+   "default_visible": false,
+   "style": null,
+   "encoding": null,
+   "tile_size": 512,
+   "display": true,
+   "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-11-03/map_1944_master_plan/{z}/{x}/{y}.webp",
+   "download": {
+    "pmtiles": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-11-03/map_1944_master_plan.pmtiles"
    }
   },
   {

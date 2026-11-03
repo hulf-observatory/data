@@ -1,6 +1,6 @@
-# Layers in release 2026-10-07
+# Layers in releases 2026-10-07 and 2026-11-03
 
-128 layers (2 hidden data companions not listed). Licence and source are as recorded in the catalogue; blank means not yet recorded.
+133 layers (2 hidden data companions not listed). Licence and source are as recorded in the catalogue; blank means not yet recorded.
 
 | id | title | kind | licence | source |
 |---|---|---|---|---|
@@ -52,6 +52,7 @@
 | `night_shelters` | Night Shelters | vector |  | Open Data Telangana |
 | `public_toilets` | Public Toilets | vector |  | Open Data Telangana |
 | `heritage_buildings` | Heritage Buildings | vector |  | Open Data Telangana |
+| `landmarks_1942` | 1942 City Map Landmarks | vector |  | Map of Hyderabad City (Municipal Publicity Department, 5-3-1942); positions from the GHMC heritage list and OpenStreetMap |
 | `musi_river` | Musi River | vector |  |  |
 | `musi_alignment` | Musi Alignment | vector |  |  |
 | `lakes_tanks` | Lakes and Tanks | vector |  |  |
@@ -70,6 +71,7 @@
 | `hydrobasins_l12` | Basins Level 12 | vector |  | HydroSHEDS |
 | `natural_drainage` | Natural Drainage Network | vector |  | Hyderabad Urban Lab |
 | `topo_1975_56k7` | 1975 56K7 | raster |  |  |
+| `topo_1975_56k7_se` | 1975 56K7 SE | raster |  | Survey of India |
 | `topo_2011_56k2` | 2011 E44M2 56K2 | raster |  |  |
 | `topo_2011_56k3` | 2011 E44M3 56K3 | raster |  |  |
 | `topo_2011_56k4` | 2011 E44M4 56K4 | raster |  |  |
@@ -87,6 +89,9 @@
 | `map_1908_municipal_survey` | 1908 Hyderabad Municipal Survey | raster |  | Munn, Leonard (1913) (MIT Archive) |
 | `map_1911_hyderabad` | 1911 Hyderabad | raster |  |  |
 | `map_1914_hyderabad` | 1914 Hyderabad | raster |  |  |
+| `map_1915_landuse` | 1915 Land Use, Hyderabad and Secunderabad | raster |  |  |
+| `map_1942_hyderabad_city` | 1942 Map of Hyderabad City | raster |  | Municipal Publicity Department, Hyderabad |
+| `map_1944_master_plan` | 1944 Master Plan for Greater Hyderabad | raster |  |  |
 | `map_1954_ne44_9` | 1954 NE44-9 | raster |  |  |
 | `map_1954_ne44_city_detail` | 1954 NE44 Hyderabad City Detail | raster |  |  |
 | `map_1956_secunderabad` | 1956 Secunderabad | raster |  |  |
