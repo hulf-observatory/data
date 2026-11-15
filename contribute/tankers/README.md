@@ -12,7 +12,7 @@ https://hyderabad.urbanobservatory.in/contribute/tankers/ . Updated daily.
 - `supplier`: hmwssb (the water board), private, society (arranged by the residents' association), other. `size_l`: litres, 5000 / 10000 / 20000 (20,000 or more) / dk (didn't know).
 - `price`: rupees paid for that one tanker (0 = didn't pay); `extra`: rupees given to the driver on top. As told by the sender; not checked.
 - `ordered_on` (date) and `ordered_tod` (morning / afternoon / evening / night): when it was ordered. `observed_at` is the same date. `came`: same_day / next_day / 2_days / 3_days (3 or more) / not_yet (still waiting when sent) / never.
-- `tankers_30d`: how many tankers the same home or building ordered in the 30 days before sending, including this one. `why`: piped_irregular (piped water doesn't come often enough), piped_low (comes, but too little), borewell (dried up or gave less), no_connection, other; several separated by `;`.
+- `tankers_7d`: how many tankers the same home or building ordered in the 7 days before sending, including this one (30 = 30 or more). `season`: when they usually need tankers: summer (only in summer, March to June) / summer_and_more (summer and some other months) / all_year / first_time. `why`: piped_irregular (piped water doesn't come often enough), piped_low (comes, but too little), borewell (dried up or gave less), no_connection, other; several separated by `;`.
 - Not checked on the ground. Rows flagged as spam are left out; photos are not included.
 - No names, phone numbers or IP addresses are collected.
 
