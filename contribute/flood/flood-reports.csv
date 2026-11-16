@@ -1,24 +1,24 @@
 id,observed_at,lat,lng,accuracy_m,place_type,ward,zone,located,place,street,landmark,address_more,depth_cm,depth_exact,flow,quality,note,confirmed,disputed,source
-0000000000000016,2026-06-08T15:28:00Z,17.423921,78.428239,,legacy-pin,Jubilee Hills,Khairatabad,,,,,,30,False,flowing,murky,https://x.com/HYDTP/status/2067634935905898683?s=20,0,0,floodreport-2026
-000000000000000b,2026-06-09T09:19:00Z,17.461831,78.366939,,legacy-pin,Izzath Nagar,Kukatpally,,,,,,60,False,flowing,murky,https://x.com/tathvamasi6/status/2064417810378285397?s=20,0,0,floodreport-2026
-000000000000000c,2026-06-09T11:28:00Z,17.442182,78.377056,,legacy-pin,Anjaiah Nagar,Kukatpally,,,,,,30,False,stagnant,murky,https://x.com/Karthik_eur/status/2064315408677761387?s=20,0,0,floodreport-2026
-000000000000000d,2026-06-09T12:14:00Z,17.459811,78.38478,,legacy-pin,Madhapur,Kukatpally,,,,,,30,False,flowing,murky,https://x.com/NotYourGuyND/status/2064356885546041436?s=20,0,0,floodreport-2026
-0000000000000015,2026-06-09T12:30:00Z,17.376798,78.428887,,legacy-pin,Karwan,Golconda,,,,,,60,False,stagnant,murky,,0,0,floodreport-2026
-0000000000000012,2026-06-09T12:30:00Z,17.431864,78.490139,,legacy-pin,Ramgopalpet,Secunderabad,,,,,,60,False,stagnant,murky,https://www.thehindu.com/news/cities/Hyderabad/photos-of-hyderabad-roads-and-damage-after-rain-on-june-9/article71084593.ece,0,0,floodreport-2026
-0000000000000011,2026-06-09T12:30:00Z,17.429286,78.488011,,legacy-pin,Ramgopalpet,Secunderabad,,,,,,30,False,stagnant,murky,https://www.thehindu.com/news/cities/Hyderabad/photos-of-hyderabad-roads-and-damage-after-rain-on-june-9/article71084593.ece,0,0,floodreport-2026
-000000000000000e,2026-06-09T12:39:00Z,17.430663,78.373269,,legacy-pin,Anjaiah Nagar,Kukatpally,,,,,,60,False,stagnant,murky,https://x.com/sambhadu/status/2064367735103234383?s=20,0,0,floodreport-2026
-000000000000000f,2026-06-09T12:41:00Z,17.433284,78.426105,,legacy-pin,Krishna Nagar,Khairatabad,,,,,,30,False,flowing,sewage,https://x.com/nbramllb/status/2064556128659505413?s=20,0,0,floodreport-2026
-0000000000000013,2026-06-12T16:52:00Z,17.363667,78.456382,,legacy-pin,Doodh Bowli,Rajendranagar,,,,,,30,False,flowing,murky,https://x.com/jsuryareddy/status/2065525712375955547/video/1,0,0,floodreport-2026
-0000000000000014,2026-06-12T18:06:00Z,17.401213,78.580952,,legacy-pin,Peerzadiguda,Uppal,,,,,,30,False,flowing,murky,https://x.com/jsuryareddy/status/2065525712375955547/video/1,0,0,floodreport-2026
-0000000000000018,2026-06-18T15:07:00Z,17.42976,78.455564,,legacy-pin,Somajiguda,Khairatabad,,,,,,30,False,flowing,murky,https://x.com/HYDTP/status/2067629753218347434?s=20,0,0,floodreport-2026
-0000000000000017,2026-06-18T15:12:00Z,17.448749,78.451461,,legacy-pin,Ameerpet,Khairatabad,,,,,,30,False,stagnant,murky,https://x.com/HYDTP/status/2067628237031952707?s=20,0,0,floodreport-2026
-000000000000001c,2026-06-21T20:00:00Z,17.531668,78.315702,,legacy-pin,Ameenpur,Serilingampally,,,,,,60,False,stagnant,murky,https://x.com/prashanthchilk/status/2069230511332216847?s=20,0,0,floodreport-2026
-000000000000001a,2026-06-22T19:35:00Z,17.499103,78.352603,,legacy-pin,Miyapur,Serilingampally,,,,,,30,False,stagnant,murky,https://x.com/gnanich/status/2069144622199439399?s=20,0,0,floodreport-2026
-000000000000001b,2026-06-22T21:15:00Z,17.429827,78.324592,,legacy-pin,Nallagandla,Serilingampally,,,,,,30,False,stagnant,murky,https://x.com/mouli_mukesh/status/2069167452764905766?s=20,0,0,floodreport-2026
-0000000000000019,2026-06-22T21:44:00Z,17.313037,78.432972,,legacy-pin,Katedan,Rajendranagar,,,,,,60,False,stagnant,murky,https://x.com/SudarshanBothra/status/2069174803463045607?s=20,0,0,floodreport-2026
-000000000000001e,2026-06-23T01:33:00Z,17.517787,78.356693,,legacy-pin,Maktha Mahabubpet,Serilingampally,,,,,,30,False,stagnant,murky,https://x.com/aksharatoday/status/2069297418756292737,0,0,floodreport-2026
-000000000000001d,2026-06-23T03:23:00Z,17.324728,78.433961,,legacy-pin,Shastripuram,Rajendranagar,,,,,,30,False,stagnant,murky,https://x.com/HYDTP/status/2069250912254853540?s=20,0,0,floodreport-2026
-000000000000001f,2026-09-19T13:41:00Z,17.403486,78.409075,,legacy-pin,Shaikpet,Golconda,,,,,,30,False,stagnant,murky,https://x.com/HYDTP/status/2101297067473928620,0,0,floodreport-2026
-0000000000000020,2026-09-19T13:45:00Z,17.323828,78.433212,,legacy-pin,Shastripuram,Rajendranagar,,,,,,30,False,flowing,murky,https://x.com/HYDTP/status/2101282277791576415,0,0,floodreport-2026
-0000000000000021,2026-09-19T13:50:00Z,17.320823,78.433183,,legacy-pin,Shastripuram,Rajendranagar,,,,,,30,False,flowing,murky,https://x.com/HYDTP/status/2101280584404455845,0,0,floodreport-2026
-0000000000000022,2026-09-22T16:42:00Z,17.433291,78.426068,,legacy-pin,Krishna Nagar,Khairatabad,,,,,,30,False,flowing,murky,,0,0,floodreport-2026
+0000000000000016,2026-06-08T15:28:00Z,17.423921,78.428239,,legacy-pin,Jubilee Hills,Khairatabad,social,,,,,30,False,flowing,murky,https://x.com/HYDTP/status/2067634935905898683?s=20,0,0,floodreport-2026
+000000000000000b,2026-06-09T09:19:00Z,17.461831,78.366939,,legacy-pin,Izzath Nagar,Kukatpally,social,,,,,60,False,flowing,murky,https://x.com/tathvamasi6/status/2064417810378285397?s=20,0,0,floodreport-2026
+000000000000000c,2026-06-09T11:28:00Z,17.442182,78.377056,,legacy-pin,Anjaiah Nagar,Kukatpally,social,,,,,30,False,stagnant,murky,https://x.com/Karthik_eur/status/2064315408677761387?s=20,0,0,floodreport-2026
+000000000000000d,2026-06-09T12:14:00Z,17.459811,78.38478,,legacy-pin,Madhapur,Kukatpally,social,,,,,30,False,flowing,murky,https://x.com/NotYourGuyND/status/2064356885546041436?s=20,0,0,floodreport-2026
+0000000000000015,2026-06-09T12:30:00Z,17.376798,78.428887,,legacy-pin,Karwan,Golconda,social,,,,,60,False,stagnant,murky,,0,0,floodreport-2026
+0000000000000012,2026-06-09T12:30:00Z,17.431864,78.490139,,legacy-pin,Ramgopalpet,Secunderabad,social,,,,,60,False,stagnant,murky,https://www.thehindu.com/news/cities/Hyderabad/photos-of-hyderabad-roads-and-damage-after-rain-on-june-9/article71084593.ece,0,0,floodreport-2026
+0000000000000011,2026-06-09T12:30:00Z,17.429286,78.488011,,legacy-pin,Ramgopalpet,Secunderabad,social,,,,,30,False,stagnant,murky,https://www.thehindu.com/news/cities/Hyderabad/photos-of-hyderabad-roads-and-damage-after-rain-on-june-9/article71084593.ece,0,0,floodreport-2026
+000000000000000e,2026-06-09T12:39:00Z,17.430663,78.373269,,legacy-pin,Anjaiah Nagar,Kukatpally,social,,,,,60,False,stagnant,murky,https://x.com/sambhadu/status/2064367735103234383?s=20,0,0,floodreport-2026
+000000000000000f,2026-06-09T12:41:00Z,17.433284,78.426105,,legacy-pin,Krishna Nagar,Khairatabad,social,,,,,30,False,flowing,sewage,https://x.com/nbramllb/status/2064556128659505413?s=20,0,0,floodreport-2026
+0000000000000013,2026-06-12T16:52:00Z,17.363667,78.456382,,legacy-pin,Doodh Bowli,Rajendranagar,social,,,,,30,False,flowing,murky,https://x.com/jsuryareddy/status/2065525712375955547/video/1,0,0,floodreport-2026
+0000000000000014,2026-06-12T18:06:00Z,17.401213,78.580952,,legacy-pin,Peerzadiguda,Uppal,social,,,,,30,False,flowing,murky,https://x.com/jsuryareddy/status/2065525712375955547/video/1,0,0,floodreport-2026
+0000000000000018,2026-06-18T15:07:00Z,17.42976,78.455564,,legacy-pin,Somajiguda,Khairatabad,social,,,,,30,False,flowing,murky,https://x.com/HYDTP/status/2067629753218347434?s=20,0,0,floodreport-2026
+0000000000000017,2026-06-18T15:12:00Z,17.448749,78.451461,,legacy-pin,Ameerpet,Khairatabad,social,,,,,30,False,stagnant,murky,https://x.com/HYDTP/status/2067628237031952707?s=20,0,0,floodreport-2026
+000000000000001c,2026-06-21T20:00:00Z,17.531668,78.315702,,legacy-pin,Ameenpur,Serilingampally,social,,,,,60,False,stagnant,murky,https://x.com/prashanthchilk/status/2069230511332216847?s=20,0,0,floodreport-2026
+000000000000001a,2026-06-22T19:35:00Z,17.499103,78.352603,,legacy-pin,Miyapur,Serilingampally,social,,,,,30,False,stagnant,murky,https://x.com/gnanich/status/2069144622199439399?s=20,0,0,floodreport-2026
+000000000000001b,2026-06-22T21:15:00Z,17.429827,78.324592,,legacy-pin,Nallagandla,Serilingampally,social,,,,,30,False,stagnant,murky,https://x.com/mouli_mukesh/status/2069167452764905766?s=20,0,0,floodreport-2026
+0000000000000019,2026-06-22T21:44:00Z,17.313037,78.432972,,legacy-pin,Katedan,Rajendranagar,social,,,,,60,False,stagnant,murky,https://x.com/SudarshanBothra/status/2069174803463045607?s=20,0,0,floodreport-2026
+000000000000001e,2026-06-23T01:33:00Z,17.517787,78.356693,,legacy-pin,Maktha Mahabubpet,Serilingampally,social,,,,,30,False,stagnant,murky,https://x.com/aksharatoday/status/2069297418756292737,0,0,floodreport-2026
+000000000000001d,2026-06-23T03:23:00Z,17.324728,78.433961,,legacy-pin,Shastripuram,Rajendranagar,social,,,,,30,False,stagnant,murky,https://x.com/HYDTP/status/2069250912254853540?s=20,0,0,floodreport-2026
+000000000000001f,2026-09-19T13:41:00Z,17.403486,78.409075,,legacy-pin,Shaikpet,Golconda,social,,,,,30,False,stagnant,murky,https://x.com/HYDTP/status/2101297067473928620,0,0,floodreport-2026
+0000000000000020,2026-09-19T13:45:00Z,17.323828,78.433212,,legacy-pin,Shastripuram,Rajendranagar,social,,,,,30,False,flowing,murky,https://x.com/HYDTP/status/2101282277791576415,0,0,floodreport-2026
+0000000000000021,2026-09-19T13:50:00Z,17.320823,78.433183,,legacy-pin,Shastripuram,Rajendranagar,social,,,,,30,False,flowing,murky,https://x.com/HYDTP/status/2101280584404455845,0,0,floodreport-2026
+0000000000000022,2026-09-22T16:42:00Z,17.433291,78.426068,,legacy-pin,Krishna Nagar,Khairatabad,social,,,,,30,False,flowing,murky,,0,0,floodreport-2026
