@@ -13,7 +13,9 @@ https://hyderabad.urbanobservatory.in/contribute/tankers/ . Updated daily.
 - `paid`: paid / free / dk (the sender didn't know the price, e.g. the association paid); `price`: rupees paid for that one tanker, only when `paid` = paid; `extra`: rupees given to the driver on top. As told by the sender; not checked.
 - `ordered_on` (date) and `ordered_tod` (morning / afternoon / evening / night): when it was ordered. `observed_at` is the same date. `came`: same_day / next_day / 2_days / 3_days (3 or more) / not_yet (still waiting when sent) / never.
 - `tankers_week`: how many tankers the same home or building orders in a usual week (0 = less than once a week, 30 = 30 or more). `season`: when they usually need tankers: summer (only in summer, March to June) / summer_and_more (summer and some other months) / all_year / first_time. `why`: piped_irregular (piped water doesn't come often enough), piped_low (comes, but too little), borewell (dried up or gave less), no_connection, other; several separated by `;`.
-- Not checked on the ground. Rows flagged as spam are left out; photos are not included.
+- Not checked on the ground by us. `confirmed`: how many other people (one count per device) later said the row is
+  still right; `disputed`: how many said something about it is wrong. Rows flagged as spam are left out; photos are
+  not included.
 - No names, phone numbers or IP addresses are collected.
 
 Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) — Hyderabad Urban Observatory, community data.
