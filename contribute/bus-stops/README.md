@@ -6,6 +6,7 @@ https://hyderabad.urbanobservatory.in/contribute/bus-stops/ . Updated daily.
 - `bus-stops-reports.csv` and `bus-stops-reports.geojson` hold the same rows.
 - Times are UTC (ISO 8601). Coordinates are WGS 84. `ward` and `zone` are the 2026 corporation wards, worked out
   from the coordinates.
+- `ramp` (is there a working ramp?) yes / no / dk replaced the `access` tick-box (ramp, tactile paving, none) on 17 Nov 2026; `access` stays for the answers sent before.
 - `dk` = the person said they don't know (offered on every one-answer question from 17 Nov 2026, instead of skipping it). It is not a real answer: it has no score, does not count towards the 3 answers needed, and never replaces an earlier answer in a stop's latest state.
 - `prefilled` = true: the stop already had answers, so the form started from its latest answer to each question and the person changed only what was different (from 17 Nov 2026). A person who changed nothing sends a `confirmed` check instead of a row.
 - Published times (`observed_at` on the map and in the download) are rounded down to the hour, since rows carry a nickname (from 16 Nov 2026).
