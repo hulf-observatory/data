@@ -6,6 +6,7 @@ https://hyderabad.urbanobservatory.in/contribute/bus-stops/ . Updated daily.
 - `bus-stops-reports.csv` and `bus-stops-reports.geojson` hold the same rows.
 - Times are UTC (ISO 8601). Coordinates are WGS 84. `ward` and `zone` are the 2026 corporation wards, worked out
   from the coordinates.
+- `prefilled` = true: the stop already had answers, so the form started from its latest answer to each question and the person changed only what was different (from 17 Nov 2026). A person who changed nothing sends a `confirmed` check instead of a row.
 - Published times (`observed_at` on the map and in the download) are rounded down to the hour, since rows carry a nickname (from 16 Nov 2026).
 - One row per contribution about a bus stop. A stop can have many; the newest shows its latest state.
 - `stop_id` is the stop's id in TGSRTC's open GTFS data (June 2026, Open Data Telangana). Stops residents added because they were missing from that data have ids starting `new-`, `place_type` = `missing`, and the coordinates of the pin they placed. For other stops the coordinates are TGSRTC's.
