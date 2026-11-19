@@ -1,7 +1,7 @@
 # Flood reports: community data
 
 Sent by residents through the Hyderabad Urban Observatory's form at
-https://hyderabad.urbanobservatory.in/contribute/flood/ . Updated daily.
+https://hyderabad.urbanobservatory.in/contribute/flood/ . Updated every hour.
 
 - `flood-reports.csv` and `flood-reports.geojson` hold the same rows.
 - Times are UTC (ISO 8601). Coordinates are WGS 84. `ward` and `zone` are the 2026 corporation wards, worked out
@@ -12,7 +12,7 @@ https://hyderabad.urbanobservatory.in/contribute/flood/ . Updated daily.
 - `flow`: flowing, stagnant (standing still), or `dk` = the sender said they don't know (offered from 17 Nov 2026 instead of skipping). `dk` is not a real answer: leave it out when counting flowing and standing water.
 - `quality`: murky (muddy), contaminated (full of garbage), sewage, or cant_say (the sender couldn't say, since 15 Nov 2026); several may apply, separated by `;`; `clear` appears only in the earlier form's reports.
 - `confirmed`: how many other people said "I saw this too"; `disputed`: how many said something is wrong.
-- `located`: `phone` (the phone's location, standing there) or `map` (standing there, but the phone's location failed, so the person put the place under a pin on a map) or `social` (the earlier form's reports, June–September 2026: placed on the map from social media posts, not by someone standing there). New flood reports come only from people at the place.
+- `located`: `phone` (the phone's location, standing there) or `map` (standing there, but the phone's location failed, so the person put the place under a pin on a map) or `social` (the earlier form's reports, June–September 2026: placed on the map from social media posts, not by someone standing there). Since 20 Nov 2026 also `memory`: a flood the person saw in the last 7 days, placed on a map afterwards (from a laptop, or a phone away from the place); its `observed_at` is the day and part of the day they chose (09:00 morning, 14:00 afternoon, 18:30 evening, 22:00 night, India time), not a measured time.
 - Not checked on the ground by us. `confirmed`: how many other people (one count per device) later said the row is
   still right; `disputed`: how many said something about it is wrong. Rows flagged as spam are left out; photos are
   not included.

@@ -1,7 +1,7 @@
 # Water tanker orders: community data
 
 Sent by residents through the Hyderabad Urban Observatory's form at
-https://hyderabad.urbanobservatory.in/contribute/tankers/ . Updated daily.
+https://hyderabad.urbanobservatory.in/contribute/tankers/ . Updated every hour.
 
 - `tankers-reports.csv` and `tankers-reports.geojson` hold the same rows.
 - Times are UTC (ISO 8601). Coordinates are WGS 84. `ward` and `zone` are the 2026 corporation wards, worked out

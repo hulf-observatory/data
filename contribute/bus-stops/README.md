@@ -1,7 +1,7 @@
 # Bus stop contributions: community data
 
 Sent by residents through the Hyderabad Urban Observatory's form at
-https://hyderabad.urbanobservatory.in/contribute/bus-stops/ . Updated daily.
+https://hyderabad.urbanobservatory.in/contribute/bus-stops/ . Updated every hour.
 
 - `bus-stops-reports.csv` and `bus-stops-reports.geojson` hold the same rows.
 - `bus-stops-summary.csv` and `bus-stops-summary.geojson` (from 18 Nov 2026): one row per place, combining its rows: the
