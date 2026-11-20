@@ -19,7 +19,7 @@ https://hyderabad.urbanobservatory.in/contribute/unchoke-hyd/ . Updated every ho
 - `photos`: the row's photo files in the `photos/` folder beside this file, separated by `;` (up to 6). The location stored in a photo was removed before it was saved.
 - Not checked on the ground by us. `confirmed`: how many other people (one count per device) later said the row is
   still right; `disputed`: how many said something about it is wrong. Rows flagged as spam are left out; photos flagged as unsuitable are left out too.
-- After sending, a person may leave a name and an email for the group's organisers. These are kept apart from
-  this data and are never published. No phone numbers or IP addresses are collected.
+- The sender's name (needed), email and phone number (optional) are private: kept apart from this data, for
+  a while, only to ask about an entry if there are questions, and never published. No IP addresses are collected.
 
 Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) — Hyderabad Urban Observatory, community data.
