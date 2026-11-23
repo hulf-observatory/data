@@ -52,3 +52,8 @@ ec52305a9b2b4a83,2026-11-22T07:00:00Z,17.389615,78.453234,,map,Vijayanagar Colon
 d5e61aced124454d,2026-11-22T11:00:00Z,17.394135,78.442132,,map,Mehdipatnam,Golconda,memory,footpath,,,,,s17.39428_78.44128,l,Asifnagar Road,north,,,,,,,no,,,,,,,"A lot of things cover the footpath, leaving no place for pedestrians",0,0,form,
 67c5703d29af4217,2026-11-22T11:00:00Z,17.395692,78.442132,,map,Vijayanagar Colony,Golconda,memory,footpath,,,,,s17.39554_78.44167,l,Golkonda Road,south,,,,,,,no,,,,,,,Pedestrians cannot walk in this area,0,0,form,
 a4e3f54ef1504ab9,2026-11-22T12:00:00Z,17.493889,78.385938,,map,Vasanth Nagar,Kukatpally,memory,lights,,,,,,,,,,,,,,,,,,,not_working,,,No proper lighting on the main road,0,0,form,
+9dc3a718f4d34c9c,2026-11-23T10:00:00Z,17.392686,78.456469,,map,Mallepally,Golconda,memory,footpath,,,,,s17.39246_78.45600,r,Darus Salm Road,south,,,,,,,yes,mostly,mostly,vendors;parked;garbage;poles;works,,,,,0,0,form,
+01372eec5e93432d,2026-11-23T10:00:00Z,17.394786,78.459297,,map,Mallepally,Golconda,memory,footpath,,,,,s17.39516_78.45746,r,Dargah Road,south,,,,,,,no,,,,,,,,0,0,form,
+d020f44180b54056,2026-11-23T10:00:00Z,17.395232,78.457326,,map,Shanti Nagar,Golconda,memory,footpath,,,,,s17.39516_78.45746,l,Dargah Road,north,,,,,,,no,,,,,,,,0,0,form,
+9fb1b81b7acd4b05,2026-11-23T10:00:00Z,17.394019,78.456388,,map,Shanti Nagar,Golconda,memory,footpath,,,,,s17.39411_78.45625,l,,east,,,,,,,yes,no,mostly,garbage;parked,,,,Most of the place stinks of a bad smell,0,0,form,
+13c9aee08d274df8,2026-11-23T10:00:00Z,17.39349,78.457716,,map,Mallepally,Golconda,memory,footpath,,,,,s17.39391_78.45823,r,Darus Salm Road,south,,,,,,,yes,no,mostly,vendors;parked,,,,,0,0,form,
